@@ -1,5 +1,9 @@
 body { padding-top: 60px; }
 
+.hidden {
+	display: none;
+}
+
 .youtube {
 	max-height: 480px;
 	height: 480px;
@@ -12,7 +16,7 @@ body { padding-top: 60px; }
 .codepen a span{
 	font-size: 32px;
 }
-
+	
 .logo {
   width: 60px; /* required to center */
   height: 60px;

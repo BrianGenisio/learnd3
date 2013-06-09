@@ -47,6 +47,7 @@
         </div>
 
         <div class="span10">
+          <h2 class="title">Please Select a Video</h2>
           <div class="youtube">
             <iframe width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
           </div>
@@ -54,25 +55,7 @@
       </div>
     </div>
 
-      <script type="text/javascript">
-        d3.json('/videos.json', function(error, data) {
-          var navs = d3.select('.lessons')
-            .selectAll('li')
-            .data(data);
-
-          var action = navs.enter()
-            .append('li')
-            .append('a');
-
-          action.attr('href', '#')
-            .text(function(d) { return d.title; });
-
-          action.on('click', function(d) {
-            d3.select('.youtube iframe')
-              .attr('src', 'http://www.youtube.com/embed/' + d.youtube);
-          });
-        });
-      </script>
+      <script type="text/javascript" src="javascripts/main.js"></script>
 
 
   </body>

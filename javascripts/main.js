@@ -20,5 +20,11 @@ d3.json('/videos.json', function(error, data) {
 
     d3.select('.youtube iframe')
       .attr('src', 'http://www.youtube.com/embed/' + d.youtube);
+
+    d3.select('.codepen')
+    	.attr('style', 'display: block;')
+    	.select('a')
+    	.attr('href', 'http://codepen.io/BrianGenisio/pen/' + d.codepen)
+
   });
 });

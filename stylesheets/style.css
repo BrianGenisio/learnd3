@@ -1,0 +1,25 @@
+body { padding-top: 60px; }
+
+.youtube {
+	max-height: 480px;
+	height: 480px;
+}
+
+.codepen {
+	margin: 20px 0px;
+}
+
+.codepen a span{
+	font-size: 32px;
+}
+
+.logo {
+  width: 60px; /* required to center */
+  height: 60px;
+}
+.outer-ring {
+  fill: black;
+}
+.inner-box {
+  fill: black;
+}

@@ -12,6 +12,8 @@
 	    .text(function(d) { return d.title; });
 
 	  action.on('click', function(d) {
+	  	d3.select('.welcome-message').classed('hidden', true);
+
 	  	navs.classed('active', false);
 	  	d3.select(d3.event.toElement.parentElement)
 	  		.classed('active', true);

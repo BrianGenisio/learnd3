@@ -1,30 +1,30 @@
 [
 	{
-		"title": "Introduction to D3.js",
+		"title": "1. Introduction to D3.js",
 		"youtube": "PIOcrS83ucQ",
 		"codepen": "lrgqb" 
 	},
 
 	{
-		"title": "Transforming to SVG",
+		"title": "2. Transforming to SVG",
 		"youtube": "DAmRu22thmA",
 		"codepen": "wvfco"
 	},
 	
 	{
-		"title": "Scaling X/Y Coordinates",
+		"title": "3. Scaling X/Y Coordinates",
 		"youtube": "wd-m9YWybas",
 		"codepen": "lmuaF"
 	},
 	
 	{
-		"title": "Adding X/Y Axis",
+		"title": "4. Adding X/Y Axis",
 		"youtube": "JyIEXWqZC20",
 		"codepen": "vIFcw"
 	},
 	
 	{
-		"title": "Simple Animations",
+		"title": "5. Simple Animations",
 		"youtube": "WJArwL3FgrU",
 		"codepen": "mFwxr"
 	}

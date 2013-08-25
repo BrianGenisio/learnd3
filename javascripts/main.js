@@ -23,10 +23,10 @@
 	    d3.select('.youtube iframe')
 	      .attr('src', 'http://www.youtube.com/embed/' + d.youtube);
 
-	    d3.select('.codepen')
+	    d3.select('.codepen-container')
 	    	.classed('hidden', false)
-	    	.select('a')
-	    	.attr('href', 'http://codepen.io/BrianGenisio/pen/' + d.codepen)
+	    	.html('<p data-slug-hash="' + d.codepen + '" data-default-tab="js" class="codepen"></p>');
+	    CodePenEmbed.init();
 
 	  });
 	});

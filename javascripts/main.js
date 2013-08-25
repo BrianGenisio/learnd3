@@ -25,7 +25,7 @@
 
 	    d3.select('.codepen-container')
 	    	.classed('hidden', false)
-	    	.html('<p data-slug-hash="' + d.codepen + '" data-default-tab="js" class="codepen"></p>');
+	    	.html('<p data-slug-hash="' + d.codepen + '" data-height="600" data-default-tab="js" class="codepen"></p>');
 	    CodePenEmbed.init();
 
 	  });
